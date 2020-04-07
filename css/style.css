@@ -8,21 +8,33 @@ body, html{
 }
 
 .img1{
-    background-image: url(../img/background_img1.jpg);
+    /* background-image: url(../img/background_img1.jpg); */
     /* background-size: cover no-repeat; */
-    background-position: center center;
+    /* background-position: center center;
     min-height: 100%;
     width: auto;
-    height: auto;
+    height: auto; */
+    background-image: url(../img/background_img1.jpg);
+    background-position: center center;
+    /* min-height: 100%; */
+    /* width: auto; */
+    height: 100%;
+    /* width: 1200px; */
+    /* height: 600px; */
+    background-size: cover;
 
 }
 
 .img2{
     background-image: url(../img/background_img2.jpg);
     min-height: 400px;
+    background-size: cover;
+    background-position: center center;
 }
 
 .img3{
     background-image: url(../img/background_img3.jpg);
     min-height: 400px;
+    background-size: cover;
+    background-position: center center;
 }
