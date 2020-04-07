@@ -7,22 +7,51 @@ body, html{
     color: #666666;
 }
 
+.img1, .img2, .img3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*keeps image stationary to give parallax effect; change to scroll to make it normal*/
+}
+
 .img1{
-    background-image: url(../img/background_img1.jpg);
+    /* background-image: url(../img/background_img1.jpg); */
     /* background-size: cover no-repeat; */
-    background-position: center center;
+    /* background-position: center center;
     min-height: 100%;
     width: auto;
-    height: auto;
+    height: auto; */
+    background-image: url(../img/background_img4.jpg);
+    background-position: center center;
+    /* min-height: 100%; */
+    /* width: auto; */
+    height: 100%;
+    /* width: 1200px; */
+    /* height: 600px; */
+    background-size: cover;
+    min-height: 100%;
 
 }
 
 .img2{
     background-image: url(../img/background_img2.jpg);
-    min-height: 400px;
+    /* min-height: 400px; */
+    height: 50%;
+    background-position: center center;
+    background-size: cover;
 }
 
 .img3{
     background-image: url(../img/background_img3.jpg);
     min-height: 400px;
+    height: 50%;
+    background-position: center center;
+    background-size: cover;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
 }
